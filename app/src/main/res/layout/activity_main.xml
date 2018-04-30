@@ -47,6 +47,7 @@
 
 
         <ImageButton
+            android:id="@+id/ib_skl"
             android:layout_margin="7dp"
             android:layout_width="150dp"
             android:layout_height="80dp"
@@ -54,6 +55,7 @@
             />
 
         <ImageButton
+            android:id="@+id/ib_aktifkuliah"
             android:layout_margin="7dp"
             android:layout_width="150dp"
             android:layout_height="80dp"
@@ -61,6 +63,7 @@
             />
 
         <ImageButton
+            android:id="@+id/ib_skripsi"
             android:layout_margin="7dp"
             android:layout_width="150dp"
             android:layout_height="80dp"
