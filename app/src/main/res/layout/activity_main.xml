@@ -11,13 +11,24 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="10dp">
+        android:paddingTop="10dp"
+        android:paddingBottom="20dp">
 
         <TextView
             android:gravity="center"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="SELAMAT DATANG DI TATA USAHA FAKULTAS SAINS DAN TEKNOLOGI"
+            android:text="SELAMAT DATANG DI TATA USAHA"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:fontFamily="serif-monospace"
+            />
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" FAKULTAS SAINS DAN TEKNOLOGI"
             android:textSize="20sp"
             android:textColor="#000"
             android:fontFamily="serif-monospace"
@@ -34,11 +45,12 @@
 
     <LinearLayout
         android:orientation="horizontal"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
 
     <LinearLayout
+        android:layout_weight="0.5"
         android:orientation="vertical"
         android:layout_width="180dp"
         android:paddingLeft="10dp"
@@ -79,6 +91,7 @@
     </LinearLayout>
 
     <LinearLayout
+        android:layout_weight="0.5"
         android:orientation="vertical"
         android:layout_width="180dp"
         android:paddingRight="10dp"
@@ -87,6 +100,7 @@
 
 
         <ImageButton
+            android:id="@+id/ib_observasi"
             android:layout_margin="7dp"
             android:layout_width="150dp"
             android:layout_height="80dp"
@@ -94,6 +108,7 @@
             />
 
         <ImageButton
+            android:id="@+id/ib_transkrip"
             android:layout_margin="7dp"
             android:layout_width="150dp"
             android:layout_height="80dp"
